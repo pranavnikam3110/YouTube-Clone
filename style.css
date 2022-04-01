@@ -4,3 +4,71 @@
     font-family: "poppins","sans-serif";
     box-sizing: border-box;
 }
+
+a{
+    text-decoration: none;
+    color:#5a5a5a;
+
+}
+img{
+    cursor: pointer;
+}
+
+.flex-display{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    position: static;
+    top: 0;
+    z-index: 10;
+}
+
+.right-nav img{
+    width: 25px;
+    margin-right: 25px;
+
+}
+
+.right-nav .user-icon{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 0;
+}
+
+.left-nav .menu{
+    width: 22px;
+    margin-right: 25px;
+}
+
+.left-nav .logo{
+    width: 130px;
+    
+}
+
+.middle-nav .mic-icon{
+    width: 16px;
+}
+
+.middle-nav .search-box{
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+
+.middle-nav .search-box input{
+    width: 400px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+.middle-nav .search-box img{
+    width: 15px;
+}
