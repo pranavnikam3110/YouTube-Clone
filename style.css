@@ -205,3 +205,41 @@ nav{
     display: block;
     margin-bottom: 2px;
 }
+
+
+@media (max-width:900px){
+    .menu{
+        display: none;
+    }
+
+    .sidebar{
+        display: none;
+    }
+
+    .container,.large-container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .right-nav img{
+        display: none;
+    }
+
+    .right-nav .user-icon{
+        display: block;
+        width: 35px;
+    }
+
+    .middle-nav .search-box input{
+        width: 100px;
+    }
+
+    .middle-nav .mic-icon{
+        display: none;
+    }
+
+    .logo{
+        width: 90px;
+    }
+
+}
